@@ -33,6 +33,7 @@
 					<input type="date" name="dte" id="dte">
 					<p>
 					<label for="num">Mobile Number</label>
+<!-- I found this input type="tel" for telephone numbers on w3schools.com, I'm unsure if you would prefer this tag or the number tag taught in week 8 -->
 					<input type="tel" name="num" id="num">
 					</p>
 					<p>Gender</p>
@@ -49,7 +50,28 @@
 						Other
 					</label>
 				</div>
-
+				<div id="address-container" class="form">
+					<label for="Address">Street address</label>
+					<input type="text" name="address" id="address">
+					<label for="City">City</label>
+					<input type="text" name="city" id="city">
+					<label for="province">Province</label>
+					<select name="province" id="province">
+						<option value="ontario">Ontario</option>
+						<option value="quebec">Quebec</option>
+						<option value="alberta">Alberta</option>
+						<option value="british columbia">British Columbia</option>
+						<option value="manitoba">Manitoba</option>
+						<option value="new brunswick">New Brunswick</option>
+						<option value="newfoundland and labrador">Newfoundland and Labrador</option>
+						<option value="northwest territories">Northwest Territories</option>
+						<option value="nova scotia">Nova Scotia</option>
+						<option value="nunavut">Nunavut</option>
+						<option value="prince edward island">Prince Edward Island</option>
+						<option value="saskatchewan">Saskatchewan</option>
+						<option value="yukon">Yukon</option>
+					</select>
+				</div>
 			</form>	
 		</section>
 	</div>
