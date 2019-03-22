@@ -1,100 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>In Class 2</title>
-	<style type="text/css">
-		* {
-			margin: 0px;
-			padding: 0px;
-		}
-		.clearfix {
-			overflow: auto;
-		}
-		.clearfix:after {
-			content: "";
-			clear: both;
-			display: table;
-		}
-		<link href="https://fonts.googleapis.com/css?family=Noticia+Text|Oswald" rel="stylesheet">
-		h1 {
-			font-family: "Oswald", sans-serif;
-			font-size: 36px;
-		}
-		h2 {
-			font-family: "Oswald", sans-serif;
-			font-size: 28px;
-		}
-		p.article-text {
-			font-family: "Noticia Text", serif;
-			font-size: 20px;
-		}
-		figcaption {
-			font-family: "Noticia Text", serif;
-			font-size: 16px;
-		}
-		div.container {
-			background-color: #b39ddb;
-			padding: 70px;
-			height: 430px;
-		}
-		.box {
-			background-color: #f9d57d;
-			width: 160px;
-			height: 80px;
-			float: left;
-			padding: 50px;
-			margin: 30px;
-			font-size: 18px;
-			font-family: "Oswald", sans-serif;
-		}
-		div.container-2 {
-			background-color: #ffffff;
-			float: left;
-			padding: 35px;
-		}
-		article.article-main{
-			width: 67%;
-			height: 400px;
-			float: left; 
-		}
-		aside.aside-main{
-			background-image: url(img/white-waves.png);
-			width: 33%;
-			height: 400px;
-			float: left;
-		}
-		footer {
-			background-color: #b39ddb;
-			width: 100%;
-			height: 130px;
-			padding: 35px;
-		}
-	</style>
-	<div class="container clearfix">
-		<h1>ABC Company</h1>
-		<p>
-			<nav class="box">HOME</nav>
-			<nav class="box">ABOUT</nav>
-			<nav class="box">CONTACT</nav>
-		</p>
-	</div>
+	<title>Simple Style Schema</title>
 </head>
 <body>
-	
-	<div class="container-2 clearfix">
-		<article class="article-main">
-			<h2>Article Title</h2>
-			<p class="article-text">
-				Article text here.
-			</p>
-		</article>
-		<aside class="aside-main">
-			<figure>
-				<img src="img/waterfall.jpg" alt="waterfall image" width="240" height="145">
-				<figcaption>This is and image of a waterfall</figcaption>
-			</figure>
-		</aside>
+	<h1>Simple Style Schema</h1>
+	<h2>Home Page</h2>
+	<div id="intitial-info">
+		<p>Target Screen: Desktop</p>
+		<p>Image Link: https://star0103.github.io/lib2024/inclass-2/img/mockup-img.jpg</p>
+		<p>Dimensions:</p>
+	</div>
+	<div id="dimensions">
+		<table border="1">
+			<tr>
+				<td>Element</td>
+				<td>Width</td>
+				<td>Height</td>
+				<td>Parent</td>
+			</tr>
+			<tr>
+				<td>Page</td>
+				<td>100%</td>
+				<td>Auto</td>
+				<td>n/a</td>
+			</tr>
+			<tr>
+				<td>Header</td>
+				<td>100%</td>
+				<td>430px</td>
+				<td>Page</td>
+			</tr>
+			<tr>
+				<td>Main</td>
+				<td>100%</td>
+				<td>Auto</td>
+				<td>Page</td>
+			</tr>
+			<tr>
+				<td>Article</td>
+				<td>67%</td>
+				<td>400px</td>
+				<td>Main</td>
+			</tr>
+			<tr>
+				<td>Aside</td>
+				<td>33%</td>
+				<td>400px</td>
+				<td>Main</td>
+			</tr>
+			<tr>
+				<td>Footer</td>
+				<td>100%</td>
+				<td>130px</td>
+				<td>Page</td>
+			</tr>
+		</table>
+	</div>
+	<p>Colours</p>
+	<div id="Colours">
+		<table>
+			<tr>
+				<td>Color</td>
+				<td>Used for</td>
+				<td>Used as</td>
+				<td>Hex value</td>
+				<td>RBG Value</td>
+				<td>Opacity</td>
+			</tr>
+			<tr>
+				<td>Black</td>
+				<td>Text</td>
+				<td>Primary</td>
+				<td>#000000</td>
+				<td>(0,0,0)</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Off-Black</td>
+				<td>Article title</td>
+				<td>Accent</td>
+				<td>#040002</td>
+				<td>(4,0,2)</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>BG Purple</td>
+				<td>Background</td>
+				<td>Primary</td>
+				<td>#b39ddb</td>
+				<td>(179,157,219)</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>BG White</td>
+				<td>Background</td>
+				<td>Accent</td>
+				<td>#ffffff</td>
+				<td>(255,255,255)</td>
+				<td>1</td>
+			</tr>
+		</table>
+	</div>
+	Fonts:
+ 	<div id="fonts">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>Use</td>
+				<td>Size</td>
+				<td>Weight</td>
+			</tr>
+			<tr>
+				<td>Oswald</td>
+				<td>Main Header</td>
+				<td>36px</td>
+				<td>normal</td>
+			</tr>
+			<tr>
+				<td>Oswald</td>
+				<td>Sub Header and nav-text</td>
+				<td>28px</td>
+				<td>normal</td>
+			</tr>
+			<tr>
+				<td>Noticia text</td>
+				<td>Article text</td>
+				<td>20px</td>
+				<td>normal</td>
+			</tr>
+		</table>
 	</div>
 </body>
-<footer class="footer clearfix">Copyright &copy; 2017</footer>
 </html>
