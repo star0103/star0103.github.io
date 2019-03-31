@@ -20,6 +20,8 @@ div{
 nav{
 	background-color: #6dcff6;
 	float: left;
+	width: 160px;
+	height: 60px;
 }
 
 head{
