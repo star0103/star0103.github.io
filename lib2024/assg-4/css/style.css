@@ -12,10 +12,13 @@
 
 div{
 	background-color: rgba(124,197,118,1);
-	float: left;
 }
 .main{
 	background-color: #f2f3f5;
+	float: left;
+}
+nav{
+	background-color: #6dcff6;
 	float: left;
 }
 
