@@ -3,6 +3,9 @@
 .bkg-green{
 	background-color: (124,197,118);
 }
+.main{
+	background-color: #f2f3f5;
+}
 .page-logo{
 	height: 110px;
 	width: 110px;
@@ -17,5 +20,5 @@
 }
 .social-media{
 	height: 50px;
-	width: 50px
+	width: 50px;
 }
