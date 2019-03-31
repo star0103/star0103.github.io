@@ -1,10 +1,20 @@
 @charset "utf-8"
 
+.clearfix {
+	overflow: auto;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: table;
+}
 div{
 	background-color: rgba(124,197,118,1);
+	float: left;
 }
 .main{
 	background-color: #f2f3f5;
+	float: left;
 }
 .page-logo{
 	height: 110px;
