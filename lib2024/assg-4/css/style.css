@@ -45,9 +45,13 @@ article{
 }
 .copyright{
 	float: left;
+	width: 75%;
 }
 .media-icons{
 	float: right;
+	width: 25%;
+}
+.mi{
 	height: 50px;
 	width: 50px;
 }
