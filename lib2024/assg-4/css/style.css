@@ -31,12 +31,12 @@ head{
 	height: 200px;
 }
 .article{
-	width: 615px;
+	width: 66%;
 	height: 635px;
 	float: left;
 }
 .aside-sidebar{
-	width: 325px;
+	width: 34%;
 	height: 635px;
 	float: right;
 }
