@@ -40,11 +40,11 @@ article{
 	width: 66%;
 	float: left;
 }
-.aside-sidebar{
+#aside-sidebar{
 	width: 34%;
 	float: right;
 }
-.aside-secondary{
+#aside-secondary{
 	width: 100%;
 	float: left;
 }
