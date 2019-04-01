@@ -33,10 +33,12 @@ head{
 .article{
 	width: 615px;
 	height: 635px;
+	float: left;
 }
 .aside-sidebar{
 	width: 325px;
 	height: 635px;
+	float: right;
 }
 .aside-secondary{
 	width: 100%;
