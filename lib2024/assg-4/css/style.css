@@ -1,8 +1,5 @@
 @charset "utf-8"
 
-.clearfix {
-	overflow: auto;
-}
 .clearfix:after{
 	content: "";
 	clear: both;
