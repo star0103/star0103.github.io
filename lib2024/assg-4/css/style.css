@@ -6,19 +6,21 @@
 	display: inline-block;
 }
 
-
 header{
+	padding: 2%;
 	background-color: rgba(124,197,118,1);
-	width: 100%;
+	width: 96%;
 	height: 200px;
 }
 footer{
+	padding: 2%
 	background-color: rgba(124,197,118,1);
-	width: 100%;
+	width: 96%;
 	height: 110px;
 	float: left;
 }
 main{
+	padding: 2%
 	background-color: #f2f3f5;
 	height: 680px;
 }
