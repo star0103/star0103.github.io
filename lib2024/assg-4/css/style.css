@@ -37,11 +37,12 @@ header{
 }
 .aside-sidebar{
 	width: 34%;
-	float: right;
+	float: left;
 }
 .aside-secondary{
 	width: 100%;
 	height: 235px;
+	float: right;
 }
 footer{
 	width: 100%;
