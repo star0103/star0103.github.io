@@ -27,7 +27,7 @@ header{
 	width: 100%;
 	height: 200px;
 }
-.article{
+article{
 	width: 66%;
 	float: left;
 }
