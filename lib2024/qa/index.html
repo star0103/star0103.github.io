@@ -26,6 +26,23 @@
 				transform: rotate(360deg);
 			}
 		}
+		.rotate-me{
+			height: 50px;
+			width: 50px;
+			background-color: red;
+			animation-name: spin;
+			animation-duration: 5000ms;
+			animation-iteration-count: 5;
+			transition-timing-function: linear;	
+		}
+		@keyframes spin{
+			from{
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
 	</style>
 </head>
 <body>
@@ -134,9 +151,7 @@
 	<li>
 		<p><strong>Qus:</strong>Create CSS keyframes block called "spin" that rotates an element.</p>
 		<p><strong>Ans:</strong></p>
-		<div id="qa-14">
-			This block spins.
-		</div>
+		<div id="qa-14"></div>
 	</li>
 <!-- Question 15 -->
 	<li>
@@ -148,9 +163,7 @@
 			</ul>
 		</p>
 		<p><strong>Ans:</strong></p>
-		<div id="qa-15">
-			
-		</div>
+		<div id="qa-15" class="rotate-me"></div>
 	</li>
 </ol>
 </body>
