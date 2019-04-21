@@ -42,7 +42,11 @@ footer{
 }
 
 #edit-pro{
-	float: right;
+	float: left;
+}
+
+#pro-info{
+	float: left;
 }
 
 h1{
