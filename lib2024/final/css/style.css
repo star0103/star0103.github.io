@@ -28,6 +28,7 @@ footer{
 
 #about{
 	width: 60%;
+	float: left;
 }
 
 #about-img{
