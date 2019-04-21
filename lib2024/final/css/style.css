@@ -42,10 +42,12 @@ footer{
 }
 
 #edit-pro{
+	width: 50%;
 	float: left;
 }
 
 #pro-info{
+	width: 50%;
 	float: left;
 }
 
